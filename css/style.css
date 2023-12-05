@@ -8,21 +8,29 @@
     border: 1px dashed black;
 }*/
 
+/*HEADER*/
+
 header{
     text-align: center;
     padding: 0 15%;
     margin: 20px 0;
 }
 
+/*MAIN*/
+
 main{
     padding: 0 15%;
 }
+
+/*TESTO*/
 
 .text{
     text-align: center;
     margin: 20px 0;
 
 }
+
+/*CONTAINER*/
 
 .team{
     margin: 0 -10px;
@@ -31,15 +39,33 @@ main{
 .col{
     height: 100px;
     width: calc(100% / 3 - 20px);
-    float: left;
     background-color: #0f0e17;
     margin: 20px 10px;
+    float: left;
 }
 
 img{
     height: 100%;
+    float: left;
+    margin-right: 5px;
+
 }
 
 .clear{
     clear: both;
 }
+
+h2{
+    color: white;
+    margin: auto;
+}
+
+span{
+    color: white;
+    margin: auto;
+}
+
+a{
+    margin: auto;
+}
+
