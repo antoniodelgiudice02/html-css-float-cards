@@ -8,21 +8,15 @@
     border: 1px dashed black;
 }*/
 
-/*HEADER*/
-
 header{
     text-align: center;
     padding: 0 15%;
     margin: 20px 0;
 }
 
-/*MAIN*/
-
 main{
     padding: 0 15%;
 }
-
-/*TESTO*/
 
 .text{
     text-align: center;
@@ -30,41 +24,39 @@ main{
 
 }
 
-/*CONTAINER*/
-
-.row{
-    margin: 0 -10px
+.team{
+    margin: 0 -10px;
 }
 
-.col{
+.col-1-4{
     height: 100px;
     width: calc(100% / 3 - 20px);
-    padding: 10px 10px;
+    float: left;
+    background-color: #0f0e17;
+    margin: 20px 10px;
+}
+
+.col-2-5{
+    height: 100px;
+    width: calc(100% / 3 - 20px);
+    background-color: #0f0e17;
+    margin: 20px 10px;
     display: inline-block;
 }
 
-.card{
+.col-3-6{
+    height: 100px;
+    width: calc(100% / 3 - 20px);
     background-color: #0f0e17;
-    height: 100%;
-    width: 100%;
+    margin: 20px 10px;
+    float: right;
 
 }
 
 img{
     height: 100%;
-    float: left;
-    margin-right: 10px;
-
 }
 
 .clear{
     clear: both;
 }
-
-h2{
-    color: white;
-    margin: auto;
-    padding-bottom: 10px;
-}
-
-
