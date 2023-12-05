@@ -32,22 +32,28 @@ main{
 
 /*CONTAINER*/
 
-.team{
-    margin: 0 -10px;
+.row{
+    margin: 0 -10px
 }
 
 .col{
     height: 100px;
-    width: calc(100% / 3 - 20px);
-    background-color: #0f0e17;
-    margin: 20px 10px;
+    width: calc(100% / 3 );
+    padding: 10px 10px;
     float: left;
+}
+
+.card{
+    background-color: #0f0e17;
+    height: 100%;
+    width: 100%;
+
 }
 
 img{
     height: 100%;
     float: left;
-    margin-right: 5px;
+    margin-right: 10px;
 
 }
 
