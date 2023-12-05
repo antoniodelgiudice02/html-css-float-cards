@@ -55,8 +55,18 @@ main{
 
 img{
     height: 100%;
+    float: left;
+    margin-right: 10px;
 }
 
 .clear{
     clear: both;
 }
+
+.style{
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px 0;
+}
+
