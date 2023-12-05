@@ -4,3 +4,42 @@
     box-sizing: border-box;
 }
 
+/*.debug{
+    border: 1px dashed black;
+}*/
+
+header{
+    text-align: center;
+    padding: 0 15%;
+    margin: 20px 0;
+}
+
+main{
+    padding: 0 15%;
+}
+
+.text{
+    text-align: center;
+    margin: 20px 0;
+
+}
+
+.team{
+    margin: 0 -10px;
+}
+
+.col{
+    height: 100px;
+    width: calc(100% / 3 - 20px);
+    float: left;
+    background-color: #0f0e17;
+    margin: 20px 10px;
+}
+
+img{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
