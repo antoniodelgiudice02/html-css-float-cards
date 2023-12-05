@@ -38,9 +38,9 @@ main{
 
 .col{
     height: 100px;
-    width: calc(100% / 3 );
+    width: calc(100% / 3 - 20px);
     padding: 10px 10px;
-    float: left;
+    display: inline-block;
 }
 
 .card{
@@ -64,14 +64,7 @@ img{
 h2{
     color: white;
     margin: auto;
+    padding-bottom: 10px;
 }
 
-span{
-    color: white;
-    margin: auto;
-}
-
-a{
-    margin: auto;
-}
 
